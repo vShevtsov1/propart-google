@@ -3,6 +3,7 @@ const { google } = require('googleapis');
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 async function appendDataToSheet(values) {
     try {

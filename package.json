@@ -8,6 +8,7 @@
     "start-pm2": "pm2 start app.js --name pro-part-integration"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "googleapis": "^131.0.0"
   }
